@@ -1,9 +1,9 @@
 const path = require("path");
 const CopyWabpackPlugin = require("copy-webpack-plugin");
 module.exports = {
-    entry: "./index.js",
+    entry: "./bootstrap.js",
     output: {
-        filename: "index.js",
+        filename: "bootstrap.js",
         path: path.resolve(__dirname, "public")
     },
     mode: "development",
